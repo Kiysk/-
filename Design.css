@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body{
+    background-color: #c0c0c0;
+    color: #0a0c13;
+
+    font-size: 20px;
+    font-weight: normal;
+    font-family: 'Roboto', sans-serif;
+    /*font: normal 20px 'Roboto', sans-serif;*/
+
+    /*font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;*/
+}
+
+/*Фото*/
+.avatar{
+    width: 200px;
+    border-radius: 100px;
+    box-shadow: 4px 4px 14px rgba(0,0,0,25);
+}
+.info-text{
+    display: flex;
+}
+.info-text h1{
+    margin-left: 100px;
+    margin-top: 100px;
+}
+
+/*Описание*/
+.info{
+    background: #ffe56579;
+    max-width: 95%;
+    margin: auto;
+    border-radius: 10px;
+}
+
+/*Отчет*/
+.Report{
+    background: #56f56375;
+    max-width: 95%;
+    margin: auto;
+    border-radius: 10px;
+}
+
+/*Допрос*/
+.Interrogation{
+    background: #4ceee66c;
+    max-width: 95%;
+    margin: auto;
+    border-radius: 10px;
+}
+
+
+/*Доп*/
+.don h1{
+    background-color: #c0c0c0;
+    color: red;
+
+    font-size: 60px;
+    font-weight: normal;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+.don p{
+    font-size: 40px;
+}
+.form-group label{
+    display: block;
+    font-size: 18px;
+}
